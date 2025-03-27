@@ -36,7 +36,7 @@ IEnumerable<string> lstProdutosDiferentes = lstProdutos1.Select(x => x.Nome).Exc
 //ExceptBy: retorna uma sequência que contém elementos da primeira sequência que não estão na segunda sequência, com base em uma chave de comparação especificada;
 //IntersectBy: retorna uma sequência que contém elementos que estão presentes em ambas as sequências, com base em uma chave de comparação especificada;
 //UnionBy: retorna uma sequência que contém elementos distintos das duas sequências, com base em uma chave de comparação especificada.
-
+//função agregate
 //agregate pode juntar o resultado seja a junção de uma string ou a soma de valores
 
 //lstProdutosDiferentes
